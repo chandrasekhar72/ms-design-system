@@ -1,0 +1,59 @@
+$fw-list : 100,
+200,
+300,
+400,
+500,
+600,
+700,
+800,
+900;
+
+$directions-list : right,
+left,
+top,
+bottom;
+
+@each $i in $fw-list {
+    .fw-#{$i} {
+        font-weight: $i !important;
+    }
+}
+
+@for $i from 1 to 1000 {
+    .width-#{$i} {
+        width: $i + px;
+    }
+
+    .height-#{$i} {
+        height: $i + px;
+    }
+
+    .margin-top-#{$i} {
+        margin-top: $i + px;
+    }
+
+    .margin-bottom-#{$i} {
+        margin-bottom: $i + px;
+    }
+
+    .margin-right-#{$i} {
+        margin-right: $i + px;
+    }
+
+    .margin-left-#{$i} {
+        margin-left: $i + px;
+    }
+
+    .rounded-#{$i}px {
+        border-radius: $i + px !important;
+    }
+
+    .rounded-#{$i}rem {
+        border-radius: $i + rem !important;
+        overflow: hidden;
+    }
+
+    .lh-#{$i}px {
+        line-height: $i + px !important;
+    }
+}

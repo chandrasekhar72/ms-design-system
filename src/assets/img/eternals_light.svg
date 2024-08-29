@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="754" height="277" viewBox="0 0 754 277">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 200px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Roboto;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 100px;
+      }
+    </style>
+  </defs>
+  <text id="eternals" class="cls-1" x="11" y="168">eternals</text>
+  <text id="_.cloud" data-name=".cloud" class="cls-2" x="459.402" y="257.886">.cloud</text>
+</svg>

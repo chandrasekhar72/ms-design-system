@@ -1,0 +1,2 @@
+npm i --save-exact @eternaljs/url-parser @fortawesome/fontawesome-free @reduxjs/toolkit axios bootstrap jquery moment-timezone react-redux react-router-dom sass sonner swiper
+npm i --save-exact -D prettier
