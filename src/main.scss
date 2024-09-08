@@ -1,7 +1,7 @@
+@import "assets/css/imports.scss";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  // line-height: 1.5;
-  // font-weight: 400;
 
   // color-scheme: light dark;
   // color: rgba(255, 255, 255, 0.87);
@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
 }
 
 a {

@@ -1,8 +1,25 @@
+import { lazy } from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Login from "./pages/Auth/Login/Login";
+import Client from "./pages/Client/Client";
 
-function App() {
-  return (
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni quis, quas, aperiam quaerat ipsa quae minus, ipsum odio obcaecati laborum exercitationem. Reprehenderit laboriosam sunt ut iusto, molestias natus veritatis.</h1>
-  )
+const HomePage = lazy(() => import('./pages/Home/Home'))
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/client",
+    element: <Client />
+  },
+]);
+
+export default function App() {
+  return (<RouterProvider router={router} />);
 }
-
-export default App
